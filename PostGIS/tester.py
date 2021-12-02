@@ -11,7 +11,7 @@ import Assignment2_Interface as Assignment2
 
 DATABASE_NAME = 'dds_assignment2'
 
-def getOpenConnection(user='postgres', password='Rohit69', dbname='dds_assignment2'):
+def getOpenConnection(user='postgres', password='pwd', dbname='dds_assignment2'):
     return psycopg2.connect("dbname='" + dbname + "' user='" + user + "' host='localhost' password='" + password + "'")
 
 def createDB(dbname='dds_assignment2'):
